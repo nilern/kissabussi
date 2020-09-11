@@ -8,11 +8,11 @@
     cp/Context
 
     cp/Functor
-    (-fmap [_ f fv] (taksi/transform f fv))
+    (-fmap [_ f fv] (taksi/map f fv))
 
     cp/Applicative
     (-pure [_ v] (taksi/resolved v))
-    (-fapply [_ af av] (taksi/then af (fn [f] (taksi/transform f av))))
+    (-fapply [_ af av] (taksi/then af (fn [f] (taksi/map f av))))
 
     cp/Monad
     (-mreturn [_ v] (taksi/resolved v))

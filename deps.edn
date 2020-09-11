@@ -1,3 +1,3 @@
 {:deps {funcool/cats {:mvn/version "2.2.0"}
         github-nilern/taksi {:git/url "https://github.com/nilern/taksi"
-                             :sha "89e35daaf751c41a8eef8d161a4e951ff83e75fa"}}}
+                             :sha "42d04224a656f75dd104c6c1cb82f2c3ae32f1d5"}}}
